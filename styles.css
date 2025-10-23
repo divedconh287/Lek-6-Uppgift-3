@@ -1,0 +1,21 @@
+body{
+    background-image:url(./img/winter_bg3.jpg);
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+h1{
+    background-color: #F6E9DC;
+    border: solid red 2px;
+}
+
+#kalender{
+    display:grid;
+    margin:10px;
+    background-color: #F6E9DC;
+}
+
+#veckodagar{
+    margin-top:10px;
+    margin-bottom:10px;
+}
