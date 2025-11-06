@@ -4,9 +4,27 @@ body{
     grid-template-columns: 1fr 3fr 1fr;
 }
 
-h1{
-    background-color: #F6E9DC;
+#img1{
+    justify-self: left;
+    align-self: center;
+}
+
+#img2{
+    justify-self: right;
+    align-self: center;
+}
+
+
+
+header{
+    justify-items: center;
+    background-color:dimgray;
     border: solid red 2px;
+}
+
+h1{
+    font-size: 50px;
+    color: #F6E9DC;
 }
 
 #kalender{
@@ -18,4 +36,23 @@ h1{
 #veckodagar{
     margin-top:10px;
     margin-bottom:10px;
+}
+
+.ledig{
+    justify-self:center;
+    color:aliceblue;
+    background-color:dimgray;
+    border: solid;
+    border-width: 1px;
+    border-color: yellow;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.jul{
+color:red;
+background-color: white;
+}
+
+.nyar{
+background-color: goldenrod;
 }
